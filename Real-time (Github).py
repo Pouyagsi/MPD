@@ -447,11 +447,11 @@ def run_code():
     except Exception as e:
         print("An error occurred:", e)
 
-# Run the code every 20 seconds indefinitely
+# Run the code every 720 seconds indefinitely
 while True:
     print("Running the code...")
     run_code()
     print("Code execution completed.")
-    print("Waiting for 28 seconds before running again...")
-    time.sleep(28)
+    print("Waiting for 720 seconds before running again...")
+    time.sleep(720)
     
